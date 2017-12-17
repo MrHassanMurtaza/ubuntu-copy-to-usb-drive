@@ -41,8 +41,8 @@ from_absolute_path() {
  read target
 
  if [ -d $source ]; then
-    if [ -d /media/$user/$target ]; then 
-         cp -a $source /media/$user/$target
+    if [ -d /media/murtaza/$target ]; then 
+         cp -a $source /media/murtaza/$target
     else
          echo "Target doesn't exist"
     fi
