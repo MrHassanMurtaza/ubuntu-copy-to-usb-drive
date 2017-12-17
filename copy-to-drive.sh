@@ -6,6 +6,8 @@ echo "1. Desktop or 2. Absolute Path"
 
 read option
 
+user=murtaza
+
 function from_desktop(){
  
  echo "Please enter source directory: "
@@ -15,8 +17,6 @@ function from_desktop(){
  echo "Please enter target directory: "
 
  read target
-
- user=murtaza
 
  if [ -d ~/Desktop/$source ]; then
     if [ -d /media/$user/$target ]; then 
