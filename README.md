@@ -1,4 +1,4 @@
-# :raised_hands: Ubuntu: Copy to Any Drive
+# :raised_hands: Ubuntu: Copy Folders to USB or Any Other Drive
 Copy folders from Desktop or other any absolute path to any other drive in UBUNTU. 
 
 I programmed this script out of need. My motive was to copy anything directly from my Desktop to USB.
